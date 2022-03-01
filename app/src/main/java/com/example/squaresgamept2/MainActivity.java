@@ -1,4 +1,4 @@
-package com.example.squaresgame;
+package com.example.squaresgamept2;
 
 import android.os.Bundle;
 

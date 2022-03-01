@@ -15,6 +15,7 @@ public class SecondFragment extends Fragment {
 
     private FragmentSecondBinding binding;
 
+
     @Override
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,

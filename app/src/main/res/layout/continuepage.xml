@@ -19,8 +19,8 @@
         android:layout_width="128dp"
         android:layout_height="111dp"
         android:text="YES!"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="201dp" />
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="245dp" />
 
     <Button
         android:id="@+id/exit"
