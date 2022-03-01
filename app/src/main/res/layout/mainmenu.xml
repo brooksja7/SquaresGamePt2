@@ -10,6 +10,15 @@
 
     <TextView
         android:id="@+id/PauseTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:fontFamily="sans-serif"
+        android:text="SQUARES GAME"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
         android:layout_width="148dp"
         android:layout_height="42dp"
         android:text="Squares Game"
@@ -20,15 +29,21 @@
         android:id="@+id/back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
         android:text="Start"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="332dp" />
+        app:layout_constraintBottom_toTopOf="@+id/settimelimit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/settimelimit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="184dp"
         android:text="Settings"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="403dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
