@@ -71,7 +71,7 @@
         tools:layout_editor_absoluteY="195dp" />
 
     <Button
-        android:id="@+id/player3"
+        android:id="@+id/player4"
         android:layout_width="69dp"
         android:layout_height="43dp"
         android:text="4"
@@ -95,7 +95,7 @@
         tools:layout_editor_absoluteY="386dp" />
 
     <TextView
-        android:id="@+id/player4"
+        android:id="@+id/timeLimit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Time Limit"
