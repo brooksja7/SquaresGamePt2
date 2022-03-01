@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/PauseTitle"
+        android:layout_width="70dp"
+        android:layout_height="24dp"
+        android:text="Pause"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="128dp"
+        android:layout_height="111dp"
+        android:text="Back"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <Button
+        android:id="@+id/restartGame"
+        android:layout_width="128dp"
+        android:layout_height="111dp"
+        android:text="Restart Game"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="136dp"
+        android:layout_height="100dp"
+        android:text="Exit!"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="463dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
