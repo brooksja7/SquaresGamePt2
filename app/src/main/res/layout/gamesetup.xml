@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/PauseTitle"
+        android:layout_width="148dp"
+        android:layout_height="42dp"
+        android:text="Game Setup"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <Button
+        android:id="@+id/boardsizeY"
+        android:layout_width="59dp"
+        android:layout_height="42dp"
+        android:text="Y"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <Button
+        android:id="@+id/boardsizeX"
+        android:layout_width="57dp"
+        android:layout_height="39dp"
+        android:text="X"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <Button
+        android:id="@+id/settimelimit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dropbox for time"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <Button
+        android:id="@+id/startGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start!"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="508dp" />
+
+    <Button
+        android:id="@+id/backGamesetup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back!"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/player2"
+        android:layout_width="69dp"
+        android:layout_height="43dp"
+        android:text="2"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <Button
+        android:id="@+id/player3"
+        android:layout_width="69dp"
+        android:layout_height="43dp"
+        android:text="3"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <Button
+        android:id="@+id/player3"
+        android:layout_width="69dp"
+        android:layout_height="43dp"
+        android:text="4"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <TextView
+        android:id="@+id/Player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Players"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <TextView
+        android:id="@+id/boardsize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Board Size"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="386dp" />
+
+    <TextView
+        android:id="@+id/player4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time Limit"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
