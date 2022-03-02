@@ -9,7 +9,7 @@
 
 
     <TextView
-        android:id="@+id/PauseTitle"
+        android:id="@+id/MainTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="104dp"
@@ -19,31 +19,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-        android:layout_width="148dp"
-        android:layout_height="42dp"
-        android:text="Squares Game"
-        tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="124dp" />
 
     <Button
-        android:id="@+id/back"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="56dp"
+        android:id="@+id/mainStart"
+        android:layout_width="212dp"
+        android:layout_height="53dp"
         android:text="Start"
-        app:layout_constraintBottom_toTopOf="@+id/settimelimit"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="383dp" />
 
     <Button
-        android:id="@+id/settimelimit"
+        android:id="@+id/mainSettings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="184dp"
         android:text="Settings"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="518dp" />
+    
 </androidx.constraintlayout.widget.ConstraintLayout>
