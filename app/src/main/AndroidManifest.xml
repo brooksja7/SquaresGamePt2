@@ -29,7 +29,21 @@
             android:name=".generalSettings"
             android:label="@string/app_name">
         </activity>
+        
+         <activity
+            android:name=".game"
+            android:label="@string/app_name">
+        </activity>
 
+        <activity
+            android:name=".pause"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name=".endGame"
+            android:label="@string/app_name">
+        </activity>
 
     </application>
 
