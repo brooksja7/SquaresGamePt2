@@ -22,8 +22,8 @@
 
     <Button
         android:id="@+id/mainStart"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="212dp"
+        android:layout_height="53dp"
         android:text="Start"
         tools:layout_editor_absoluteX="148dp"
         tools:layout_editor_absoluteY="383dp" />
@@ -33,13 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Settings"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="480dp" /><![CDATA[
-        android:layout_width="148dp"
-        android:layout_height="42dp"
-        android:text="Squares Game"
-        tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="124dp" />
-
-    ]]>
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="518dp" />
+    
 </androidx.constraintlayout.widget.ConstraintLayout>
