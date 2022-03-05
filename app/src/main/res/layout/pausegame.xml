@@ -1,42 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@drawable/background"
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
 
+
     <TextView
         android:id="@+id/PauseTitle"
-        android:layout_width="70dp"
-        android:layout_height="24dp"
-        android:text="Pause"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="88dp" />
-
-    <Button
-        android:id="@+id/back"
-        android:layout_width="128dp"
-        android:layout_height="111dp"
-        android:text="Back"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="324dp" />
+        android:layout_width="163dp"
+        android:layout_height="52dp"
+        android:fontFamily="@font/chewy"
+        android:text="PAUSE MENU"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/restartGame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/restartGame"
-        android:layout_width="128dp"
-        android:layout_height="111dp"
-        android:text="Restart Game"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="182dp" />
+        android:layout_width="123dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/roundedbluebuttons"
+        android:fontFamily="@font/chewy"
+        android:text="Restart"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/exit"
-        android:layout_width="136dp"
-        android:layout_height="100dp"
-        android:text="Exit!"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="463dp" />
+        android:id="@+id/restartGame2"
+        android:layout_width="123dp"
+        android:layout_height="84dp"
+        android:background="@drawable/roundedbluebuttons"
+        android:fontFamily="@font/chewy"
+        android:text="BACK"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/restartGame3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/restartGame"
+        app:layout_constraintVertical_bias="0.472" />
+
+    <Button
+        android:id="@+id/restartGame3"
+        android:layout_width="123dp"
+        android:layout_height="84dp"
+        android:layout_marginBottom="96dp"
+        android:background="@drawable/roundedbluebuttons"
+        android:fontFamily="@font/chewy"
+        android:text="EXIT"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

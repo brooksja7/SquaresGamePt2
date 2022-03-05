@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -14,6 +15,7 @@
         android:layout_marginTop="148dp"
         android:fontFamily="@font/chewy"
         android:text="CONTINUE?"
+        android:textColor="#000000"
         android:textSize="48sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,8 +23,9 @@
 
     <Button
         android:id="@+id/back"
-        android:layout_width="128dp"
-        android:layout_height="111dp"
+        android:layout_width="123dp"
+        android:layout_height="84dp"
+        android:background="@drawable/roundedbluebuttons"
         android:fontFamily="@font/chewy"
         android:text="YES!"
         android:textSize="48sp"
@@ -34,10 +37,10 @@
 
     <Button
         android:id="@+id/exit"
-        android:layout_width="136dp"
-        android:layout_height="100dp"
+        android:layout_width="123dp"
+        android:layout_height="84dp"
         android:layout_marginBottom="132dp"
-        android:background="#FF4141"
+        android:background="@drawable/roundedredbuttons"
         android:fontFamily="@font/chewy"
         android:text="NO!"
         android:textSize="48sp"
