@@ -7,6 +7,6 @@
 
     </solid>
     <stroke
-        android:width="5px"
+        android:width="10px"
         android:color="#0B43DD" />
 </shape>
