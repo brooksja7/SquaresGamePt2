@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -8,27 +9,42 @@
 
     <TextView
         android:id="@+id/PauseTitle"
-        android:layout_width="70dp"
-        android:layout_height="24dp"
-        android:text="Continue?"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="88dp" />
+        android:layout_width="220dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="148dp"
+        android:fontFamily="@font/chewy"
+        android:text="CONTINUE?"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/back"
         android:layout_width="128dp"
         android:layout_height="111dp"
+        android:fontFamily="@font/chewy"
         android:text="YES!"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="245dp" />
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/exit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PauseTitle"
+        app:layout_constraintVertical_bias="0.535" />
 
     <Button
         android:id="@+id/exit"
         android:layout_width="136dp"
         android:layout_height="100dp"
+        android:layout_marginBottom="132dp"
+        android:background="#FF4141"
+        android:fontFamily="@font/chewy"
         android:text="NO!"
-        tools:layout_editor_absoluteX="128dp"
-        tools:layout_editor_absoluteY="382dp" />
+        android:textSize="48sp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
