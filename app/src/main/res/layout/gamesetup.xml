@@ -9,22 +9,22 @@
 
 
     <Button
-        android:id="@+id/boardsizeX5"
+        android:id="@+id/xMinus"
         android:layout_width="60dp"
         android:layout_height="48dp"
         android:background="@drawable/buttonoutline"
         android:fontFamily="@font/chewy"
         android:text="@string/minusSymbol"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/player5"
+        app:layout_constraintEnd_toStartOf="@+id/xTimes"
         app:layout_constraintHorizontal_bias="0.776"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/boardsizeX"
+        app:layout_constraintTop_toBottomOf="@+id/xPlus"
         app:layout_constraintVertical_bias="0.0"
-        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/editTextNumber2"
+        android:id="@+id/yNum"
         android:layout_width="94dp"
         android:layout_height="94dp"
         android:layout_marginBottom="224dp"
@@ -40,7 +40,7 @@
         tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
 
     <Button
-        android:id="@+id/boardsizeX3"
+        android:id="@+id/yPlus"
         android:layout_width="61dp"
         android:layout_height="48dp"
         android:layout_marginBottom="272dp"
@@ -50,12 +50,12 @@
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.917"
+        app:layout_constraintHorizontal_bias="0.922"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="DuplicateSpeakableTextCheck" />
 
     <Button
-        android:id="@+id/boardsizeX6"
+        android:id="@+id/yMinus"
         android:layout_width="63dp"
         android:layout_height="48dp"
         android:background="@drawable/buttonoutline"
@@ -64,28 +64,27 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/editTextNumber2"
-        app:layout_constraintTop_toBottomOf="@+id/boardsizeX3"
+        app:layout_constraintStart_toEndOf="@+id/yNum"
+        app:layout_constraintTop_toBottomOf="@+id/yPlus"
         app:layout_constraintVertical_bias="0.0"
         tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
-        android:id="@+id/player3"
+        android:id="@+id/gamesetup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
         android:fontFamily="@font/chewy"
         android:text="@string/game_setup"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="36sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/Player"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.59" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/player"
+        android:id="@+id/boardsize"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="352dp"
@@ -100,7 +99,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/player5"
+        android:id="@+id/xTimes"
         android:layout_width="28dp"
         android:layout_height="46dp"
         android:layout_marginBottom="252dp"
@@ -131,7 +130,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/boardsizeX"
+        android:id="@+id/xPlus"
         android:layout_width="60dp"
         android:layout_height="48dp"
         android:layout_marginBottom="276dp"
@@ -139,7 +138,7 @@
         android:fontFamily="@font/chewy"
         android:text="@string/plusSymbol"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/player5"
+        app:layout_constraintEnd_toStartOf="@+id/xTimes"
         app:layout_constraintHorizontal_bias="0.776"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="TouchTargetSizeCheck" />
@@ -162,22 +161,22 @@
         tools:ignore="TextContrastCheck" />
 
     <TextView
-        android:id="@+id/Player"
+        android:id="@+id/Players"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginTop="32dp"
         android:fontFamily="@font/chewy"
         android:text="@string/players"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="36sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/player7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gamesetup" />
 
     <Button
-        android:id="@+id/player2"
+        android:id="@+id/player4"
         android:layout_width="92dp"
         android:layout_height="63dp"
         android:layout_marginStart="12dp"
@@ -194,7 +193,7 @@
         app:layout_constraintStart_toEndOf="@+id/player7" />
 
     <Button
-        android:id="@+id/player7"
+        android:id="@+id/player3"
         android:layout_width="92dp"
         android:layout_height="63dp"
         android:layout_marginBottom="452dp"
@@ -209,7 +208,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/player6"
+        android:id="@+id/player2"
         android:layout_width="92dp"
         android:layout_height="63dp"
         android:layout_marginStart="48dp"
@@ -226,7 +225,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/xNum"
         android:layout_width="94dp"
         android:layout_height="94dp"
         android:layout_marginBottom="224dp"
