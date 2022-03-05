@@ -3,38 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.4185" />
-        <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/drawable/background.xml" value="0.4185" />
-        <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/drawable/buttonoutline.xml" value="0.4185" />
-        <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/drawable/greenbuttonoutline.xml" value="0.4185" />
-        <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/drawable/orangebuttonoutline.xml" value="0.4185" />
-        <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/drawable/roundedbluebuttons.xml" value="0.4185" />
-        <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/drawable/roundedbuttons.xml" value="0.4185" />
-        <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/font/chewy.xml" value="0.584375" />
-        <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/layout/content_main.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/layout/endgame.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/layout/fragment_first.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/layout/fragment_second.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/layout/gamepage.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/layout/gamesetup.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/layout/generalsettings.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/layout/mainmenu.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/layout/pausegame.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/menu/menu_main.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.4185" />
-        <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.4185" />
-        <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/mipmap-anydpi-v26/squaresgame_round.xml" value="0.4185" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.272" />
+        <entry key="app/src/main/res/drawable/background.xml" value="0.203" />
+        <entry key="app/src/main/res/drawable/buttonoutline.xml" value="0.203" />
+        <entry key="app/src/main/res/drawable/greenbuttonoutline.xml" value="0.203" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1855" />
+        <entry key="app/src/main/res/drawable/orangebuttonoutline.xml" value="0.203" />
+        <entry key="app/src/main/res/drawable/roundedbluebuttons.xml" value="0.203" />
+        <entry key="app/src/main/res/drawable/roundedredbuttons.xml" value="0.203" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22468936201454937" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/continuepage.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/endgame.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_first.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/fragment_second.xml" value="0.19610507246376813" />
-        <entry key="app/src/main/res/layout/gamesetup.xml" value="0.23128573652626813" />
-        <entry key="app/src/main/res/layout/generalsettings.xml" value="0.19610507246376813" />
-        <entry key="app/src/main/res/layout/mainmenu.xml" value="0.19610507246376813" />
-        <entry key="app/src/main/res/layout/pausegame.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/gamepage.xml" value="0.1953125" />
+        <entry key="app/src/main/res/layout/gamesetup.xml" value="0.22543182373046888" />
+        <entry key="app/src/main/res/layout/generalsettings.xml" value="0.20774078369140625" />
+        <entry key="app/src/main/res/layout/mainmenu.xml" value="0.24226290937783063" />
+        <entry key="app/src/main/res/layout/pausegame.xml" value="0.196746826171875" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/SquaresGame.xml" value="0.3065" />
       </map>
     </option>
   </component>

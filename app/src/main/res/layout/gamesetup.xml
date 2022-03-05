@@ -43,7 +43,6 @@
         android:id="@+id/yPlus"
         android:layout_width="61dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="272dp"
         android:background="@drawable/greenbuttonoutline"
         android:fontFamily="@font/chewy"
         android:text="@string/plusSymbol"
@@ -52,6 +51,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.922"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.604"
         tools:ignore="DuplicateSpeakableTextCheck" />
 
     <Button
@@ -133,14 +134,15 @@
         android:id="@+id/xPlus"
         android:layout_width="60dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="276dp"
         android:background="@drawable/greenbuttonoutline"
         android:fontFamily="@font/chewy"
         android:text="@string/plusSymbol"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/xTimes"
-        app:layout_constraintHorizontal_bias="0.776"
+        app:layout_constraintHorizontal_bias="0.77"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.604"
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
@@ -170,10 +172,12 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="36sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/player3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/gamesetup" />
+        app:layout_constraintTop_toBottomOf="@+id/gamesetup"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/player4"
@@ -181,7 +185,6 @@
         android:layout_height="63dp"
         android:layout_marginStart="12dp"
         android:layout_marginEnd="40dp"
-        android:layout_marginBottom="452dp"
         android:background="@drawable/greenbuttonoutline"
         android:fontFamily="@font/chewy"
         android:text="@string/_4"
@@ -190,13 +193,14 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.062"
-        app:layout_constraintStart_toEndOf="@+id/player7" />
+        app:layout_constraintStart_toEndOf="@+id/player3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.323" />
 
     <Button
         android:id="@+id/player3"
         android:layout_width="92dp"
         android:layout_height="63dp"
-        android:layout_marginBottom="452dp"
         android:background="@drawable/orangebuttonoutline"
         android:fontFamily="@font/chewy"
         android:text="@string/_3"
@@ -205,24 +209,26 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.323" />
 
     <Button
         android:id="@+id/player2"
         android:layout_width="92dp"
         android:layout_height="63dp"
-        android:layout_marginStart="48dp"
         android:layout_marginEnd="12dp"
-        android:layout_marginBottom="452dp"
         android:background="@drawable/buttonoutline"
         android:fontFamily="@font/chewy"
         android:text="@string/_2"
         android:textColor="#FFFFFF"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/player7"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.142"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.323" />
 
     <EditText
         android:id="@+id/xNum"
