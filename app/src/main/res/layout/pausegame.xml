@@ -58,7 +58,7 @@
         android:layout_width="123dp"
         android:layout_height="84dp"
         android:layout_marginBottom="96dp"
-        android:background="@drawable/roundedbluebuttons"
+        android:background="@drawable/roundedredbuttons"
         android:fontFamily="@font/chewy"
         android:text="EXIT"
         android:textColor="#FFFFFF"
