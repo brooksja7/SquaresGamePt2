@@ -1,105 +1,245 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
 
+
+    <Button
+        android:id="@+id/boardsizeX5"
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+        android:background="@drawable/buttonoutline"
+        android:fontFamily="@font/chewy"
+        android:text="@string/minusSymbol"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/player5"
+        app:layout_constraintHorizontal_bias="0.776"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boardsizeX"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="94dp"
+        android:layout_height="94dp"
+        android:layout_marginBottom="224dp"
+        android:ems="10"
+        android:hint="@string/_0"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.716"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/boardsizeX3"
+        android:layout_width="61dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="272dp"
+        android:background="@drawable/greenbuttonoutline"
+        android:fontFamily="@font/chewy"
+        android:text="@string/plusSymbol"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.917"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/boardsizeX6"
+        android:layout_width="63dp"
+        android:layout_height="48dp"
+        android:background="@drawable/buttonoutline"
+        android:fontFamily="@font/chewy"
+        android:text="@string/minusSymbol"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/editTextNumber2"
+        app:layout_constraintTop_toBottomOf="@+id/boardsizeX3"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
-        android:id="@+id/PauseTitle"
-        android:layout_width="148dp"
-        android:layout_height="42dp"
-        android:text="Game Setup"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="56dp" />
-
-    <Button
-        android:id="@+id/boardsizeY"
-        android:layout_width="59dp"
-        android:layout_height="42dp"
-        android:text="Y"
-        tools:layout_editor_absoluteX="217dp"
-        tools:layout_editor_absoluteY="412dp" />
-
-    <Button
-        android:id="@+id/boardsizeX"
-        android:layout_width="57dp"
-        android:layout_height="39dp"
-        android:text="X"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="412dp" />
-
-    <Button
-        android:id="@+id/settimelimit"
+        android:id="@+id/player3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="dropbox for time"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="303dp" />
+        android:fontFamily="@font/chewy"
+        android:text="@string/game_setup"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Player"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.59" />
+
+    <TextView
+        android:id="@+id/player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="352dp"
+        android:fontFamily="@font/chewy"
+        android:text="@string/board_size"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/player5"
+        android:layout_width="28dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="252dp"
+        android:fontFamily="@font/chewy"
+        android:text="@string/x"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/startGame"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Start!"
-        tools:layout_editor_absoluteX="157dp"
-        tools:layout_editor_absoluteY="508dp" />
+        android:layout_width="182dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/roundedbluebuttons"
+        android:fontFamily="@font/chewy"
+        android:text="@string/start_game"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/boardsizeX"
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="276dp"
+        android:background="@drawable/greenbuttonoutline"
+        android:fontFamily="@font/chewy"
+        android:text="@string/plusSymbol"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/player5"
+        app:layout_constraintHorizontal_bias="0.776"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/backGamesetup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Back!"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
-
-    <Button
-        android:id="@+id/player2"
-        android:layout_width="69dp"
-        android:layout_height="43dp"
-        android:text="2"
-        tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="195dp" />
-
-    <Button
-        android:id="@+id/player3"
-        android:layout_width="69dp"
-        android:layout_height="43dp"
-        android:text="3"
-        tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="195dp" />
-
-    <Button
-        android:id="@+id/player4"
-        android:layout_width="69dp"
-        android:layout_height="43dp"
-        android:text="4"
-        tools:layout_editor_absoluteX="249dp"
-        tools:layout_editor_absoluteY="195dp" />
+        android:layout_marginTop="16dp"
+        android:background="@drawable/roundedredbuttons"
+        android:fontFamily="@font/chewy"
+        android:text="@string/exit"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/Player"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Players"
-        tools:layout_editor_absoluteX="171dp"
-        tools:layout_editor_absoluteY="142dp" />
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/chewy"
+        android:text="@string/players"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/player7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
 
-    <TextView
-        android:id="@+id/boardsize"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Board Size"
-        tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="386dp" />
+    <Button
+        android:id="@+id/player2"
+        android:layout_width="92dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="452dp"
+        android:background="@drawable/greenbuttonoutline"
+        android:fontFamily="@font/chewy"
+        android:text="@string/_4"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toEndOf="@+id/player7" />
 
-    <TextView
-        android:id="@+id/timeLimit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Time Limit"
-        tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="263dp" />
+    <Button
+        android:id="@+id/player7"
+        android:layout_width="92dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="452dp"
+        android:background="@drawable/orangebuttonoutline"
+        android:fontFamily="@font/chewy"
+        android:text="@string/_3"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/player6"
+        android:layout_width="92dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="452dp"
+        android:background="@drawable/buttonoutline"
+        android:fontFamily="@font/chewy"
+        android:text="@string/_2"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/player7"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="94dp"
+        android:layout_height="94dp"
+        android:layout_marginBottom="224dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_0"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.031"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
