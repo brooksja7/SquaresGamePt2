@@ -19,6 +19,14 @@ public class generalSettings extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
+        if(AppCompatDelegate.getDefaultNightMode() == AppCompatDelegate.MODE_NIGHT_YES)
+        {
+            setTheme(R.style.Theme_darkMode);
+        }
+        else
+        {
+            setTheme(R.style.Theme_SquaresGamePt2);
+        }
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.generalsettings);
@@ -38,6 +46,8 @@ public class generalSettings extends Activity {
             }
         });
 
+        // Change the button appearance when it is clicked to OFF
+        // Vice versa
         musicBinary.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -55,6 +65,8 @@ public class generalSettings extends Activity {
             }
         });
 
+        // Change the button appearance when it is clicked to OFF
+        // Vice versa
         gameVolume.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -72,6 +84,7 @@ public class generalSettings extends Activity {
             }
         });
 
+        // Tell the User his settings are saved when clicked
         saveBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
