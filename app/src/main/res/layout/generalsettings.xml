@@ -1,62 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
-    <TextView
-        android:id="@+id/musicvolume"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Music Volume"
-        tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="61dp" />
-
-    <TextView
-        android:id="@+id/gameSound"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Game Sounds"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="181dp" />
-
-    <TextView
-        android:id="@+id/darkmode"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Dark Mode"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="325dp" />
 
     <Button
         android:id="@+id/musicbinary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/roundedbluebuttons"
+        android:fontFamily="@font/chewy"
         android:text="On"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="101dp" />
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/gameSoundBinary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/gameSoundBinary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/roundedbluebuttons"
+        android:fontFamily="@font/chewy"
         android:text="On"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="225dp" />
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/musicvolume3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/Save"
+    <TextView
+        android:id="@+id/musicvolume2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Save"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="438dp" />
+        android:fontFamily="@font/chewy"
+        android:text="Game Volume"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/gameSoundBinary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/musicbinary" />
+
+    <TextView
+        android:id="@+id/musicvolume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/chewy"
+        android:text="Music Volume"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/musicbinary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Switch
         android:id="@+id/switch1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="157dp"
-        tools:layout_editor_absoluteY="363dp" />
+        android:layout_marginBottom="52dp"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/Save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/musicvolume3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/chewy"
+        android:text="Dark Mode"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/switch1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="136dp"
+        android:background="@drawable/roundedbluebuttons"
+        android:fontFamily="@font/chewy"
+        android:text="Save"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:fontFamily="@font/chewy"
+        android:text="SETTINGS"
+        android:textColor="#000000"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
