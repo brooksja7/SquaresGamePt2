@@ -31,12 +31,20 @@ public class generalSettings extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.generalsettings);
 
+
+        /**************************************************************
+         * Create buttons to activate their effects
+         */
         Button exitBtn = findViewById(R.id.backGeneralSettings);
         Button musicBinary = findViewById(R.id.musicbinary);
         Button gameVolume = findViewById(R.id.gameSoundBinary);
         Button saveBtn = findViewById(R.id.Save);
         Switch darkModeSwitch = findViewById(R.id.darkModeSwitch);
 
+        /**************************************************************
+         * Create an onCLickListener when exitbtn is clicked this will lead the user back
+         * to the main menu
+         */
 
         exitBtn.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -24,6 +24,10 @@ public class gameSetup extends Activity {
         TextView xView = findViewById(R.id.xNum);
         TextView yView = findViewById(R.id.yNum);
 
+        /**************************************************************
+         * Exit button when clicked leads back to the main menu
+         */
+
         Button exitBtn = findViewById(R.id.backGamesetup);
         exitBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,6 +37,9 @@ public class gameSetup extends Activity {
             }
         });
 
+        /**************************************************************
+         * Create buttons for player 2
+         */
         Button player2 = findViewById(R.id.player2);
         player2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,6 +47,10 @@ public class gameSetup extends Activity {
                 numberOfPlayers = 2;
             }
         });
+
+        /**************************************************************
+         * Create buttons for player 3
+         */
 
         Button player3 = findViewById(R.id.player3);
         player3.setOnClickListener(new View.OnClickListener() {
@@ -49,6 +60,10 @@ public class gameSetup extends Activity {
             }
         });
 
+        /**************************************************************
+         * Create button for player 4
+         */
+
         Button player4 = findViewById(R.id.player4);
         player4.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,6 +71,10 @@ public class gameSetup extends Activity {
                 numberOfPlayers = 4;
             }
         });
+
+        /**************************************************************
+         * Add more to the X-axis dots
+         */
 
         Button xPlus = findViewById(R.id.xPlus);
         xPlus.setOnClickListener(new View.OnClickListener() {
@@ -65,6 +84,10 @@ public class gameSetup extends Activity {
                 xView.setText(Integer.toString(xCounter));
             }
         });
+
+        /**************************************************************
+         * Decrease to the X-axis dots
+         */
 
         Button xMinus = findViewById(R.id.xMinus);
         xMinus.setOnClickListener(new View.OnClickListener() {
