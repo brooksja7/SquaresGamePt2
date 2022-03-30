@@ -73,7 +73,7 @@ public class gameSetup extends Activity {
         });
 
         /**************************************************************
-         * Add more to the X-axis dots
+         * Increment 1 to the X-axis dots
          */
 
         Button xPlus = findViewById(R.id.xPlus);
@@ -86,7 +86,7 @@ public class gameSetup extends Activity {
         });
 
         /**************************************************************
-         * Decrease to the X-axis dots
+         * Decrement 1 to the X-axis dots
          */
 
         Button xMinus = findViewById(R.id.xMinus);
@@ -101,6 +101,10 @@ public class gameSetup extends Activity {
             }
         });
 
+        /**************************************************************
+         * Increment 1 to the Y-axis dots
+         */
+
         Button yPlus = findViewById(R.id.yPlus);
         yPlus.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -109,6 +113,10 @@ public class gameSetup extends Activity {
                 yView.setText(Integer.toString(yCounter));
             }
         });
+
+        /**************************************************************
+         * Decrement 1 to the Y-axis dots
+         */
 
         Button yMinus = findViewById(R.id.yMinus);
         yMinus.setOnClickListener(new View.OnClickListener() {
@@ -119,6 +127,19 @@ public class gameSetup extends Activity {
                     yCounter -= 1;
                 }
                 yView.setText(Integer.toString(yCounter));
+            }
+        });
+
+        /**************************************************************
+         * Start the game when the User clicks on the Start Game button
+         */
+
+        Button startGame = findViewById(R.id.startGame);
+        startGame.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent gamepage = new Intent(getApplicationContext(), game.class);
+                startActivity(gamepage);
             }
         });
 
