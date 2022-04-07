@@ -24,4 +24,6 @@
     <string name="players">Players</string>
     <string name="settings">Settings</string>
     <string name="start">START</string>
+    <string name="settingsButton">SETTINGS</string>
+    <string name="resume">RESUME</string>
 </resources>
