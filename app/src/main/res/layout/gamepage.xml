@@ -8,18 +8,87 @@
     android:background="@drawable/background">
 
     <Button
-        android:id="@+id/endGame"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="endGame"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="308dp" />
+        android:id="@+id/player7"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/roundedbluebuttons"
+        android:fontFamily="@font/chewy"
+        android:text="1"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.97" />
+
+    <Button
+        android:id="@+id/player6"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/greenbuttonoutline"
+        android:fontFamily="@font/chewy"
+        android:text="@string/_4"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toEndOf="@+id/player3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.971" />
+
+    <Button
+        android:id="@+id/player5"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:background="@drawable/orangebuttonoutline"
+        android:fontFamily="@font/chewy"
+        android:text="@string/_3"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.649"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.972" />
+
+    <Button
+        android:id="@+id/player"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/buttonoutline"
+        android:fontFamily="@font/chewy"
+        android:text="@string/_2"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.345"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.971" />
 
     <Button
         android:id="@+id/pause"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Pause"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/roundedbluebuttons"
+        android:fontFamily="@font/chewy"
+        android:text="||"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

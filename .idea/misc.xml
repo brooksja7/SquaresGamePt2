@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/drawable/background.xml" value="0.5475" />
-        <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/layout/gamepage.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/drawable/roundedbluebuttons.xml" value="0.4185" />
+        <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/drawable/roundedredbuttons.xml" value="0.4185" />
+        <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/layout/gamepage.xml" value="0.5" />
         <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/layout/gamesetup.xml" value="0.3582427536231884" />
         <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/layout/generalsettings.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Kevin Ly/AndroidStudioProjects/SquaresGamePt2/app/src/main/res/layout/mainmenu.xml" value="0.5541666666666667" />
