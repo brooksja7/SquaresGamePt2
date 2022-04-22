@@ -264,6 +264,7 @@ MonoBehaviour:
   _renderer: {fileID: 0}
   _highlight: {fileID: 0}
   truth: 0
+  turn: 0
 --- !u!114 &597311550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -576,6 +577,7 @@ MonoBehaviour:
   _renderer: {fileID: 0}
   _highlight: {fileID: 0}
   truth: 0
+  turn: 0
 --- !u!114 &815371412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -618,8 +620,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 1058647733}
   - {fileID: 1665309493}
+  - {fileID: 4077799675528905648}
   - {fileID: 815371407}
   - {fileID: 597311548}
   m_Father: {fileID: 519420032}
@@ -691,11 +693,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!224 &1058647733 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 4077799675342826778, guid: cadaf963649786a479377cb83ebb443b, type: 3}
-  m_PrefabInstance: {fileID: 4077799675528905647}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1665309492
 GameObject:
   m_ObjectHideFlags: 0
@@ -726,7 +723,7 @@ RectTransform:
   m_LocalScale: {x: 10.094069, y: 10.094069, z: 10.094069}
   m_Children: []
   m_Father: {fileID: 1020268471}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1046,6 +1043,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1020268471}
     m_Modifications:
+    - target: {fileID: 2920516669384553417, guid: cadaf963649786a479377cb83ebb443b, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4077799675342826778, guid: cadaf963649786a479377cb83ebb443b, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1144,3 +1145,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cadaf963649786a479377cb83ebb443b, type: 3}
+--- !u!224 &4077799675528905648 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2920516669384553417, guid: cadaf963649786a479377cb83ebb443b, type: 3}
+  m_PrefabInstance: {fileID: 4077799675528905647}
+  m_PrefabAsset: {fileID: 0}
